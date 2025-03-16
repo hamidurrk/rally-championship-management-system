@@ -5,7 +5,7 @@ This repository demonstrates a rally championship management system built with J
 
 ## Project Structure
 
-`com/main` package `has the following `.java` files:
+`com/main` package has the following `.java` files:
 
 1. `Main.java` - Entry point for the Rally Championship Management System.
 2. `ChampionshipManager.java` - Manages drivers, races, and championship statistics.
