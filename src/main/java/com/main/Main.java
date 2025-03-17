@@ -8,17 +8,19 @@ public class Main {
     public static void main(String[] args) {
         ChampionshipManager manager = ChampionshipManager.getInstance();
 
-        // Create cars and drivers
+        // Create cars
         RallyCar gravelCar1 = new GravelCar("Subaru", "Impreza", 250, 18);  
         RallyCar asphaltCar1 = new AsphaltCar("Ford", "Fiesta", 310, 17);    
         RallyCar gravelCar2 = new GravelCar("Mitsubishi", "Lancer", 300, 18);  
         RallyCar asphaltCar2 = new AsphaltCar("Citroen", "C3", 290, 16);    
 
+        // Create drivers
         Driver ogier = new Driver("Sébastien Ogier", "France", gravelCar1);
         Driver rovanpera = new Driver("Kalle Rovanperä", "Finland", asphaltCar1);
         Driver tanak = new Driver("Ott Tänak", "Estonia", gravelCar2);
         Driver neuville = new Driver("Thierry Neuville", "Belgium", asphaltCar2);
         
+        // Register drivers
         manager.registerDriver(ogier);
         manager.registerDriver(rovanpera);
         manager.registerDriver(tanak);
@@ -32,6 +34,7 @@ public class Main {
         finland.recordResult(neuville, 4, 12);
         manager.addRaceResult(finland);
 
+        // Change cars
         ogier.setCar(new AsphaltCar("Toyota", "GR Yaris", 265, 17));
         RallyRaceResult monaco = new RallyRaceResult("Monte Carlo Rally", "Monaco");
         monaco.recordResult(rovanpera, 1, 25);

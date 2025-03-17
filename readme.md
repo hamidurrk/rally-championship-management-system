@@ -1,4 +1,5 @@
-# Rally Championship Management System
+# Rally Championship Management System 
+ **_(Week 9 - OOP Exercise | Object-Oriented Programming Course | Software and Systems Engineering - LUT University)_** 
 
 This repository demonstrates a rally championship management system built with Java. It includes classes for drivers, cars, races, and a central manager to handle registrations and results.
 
