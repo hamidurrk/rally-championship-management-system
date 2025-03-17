@@ -3,6 +3,10 @@
 
 This repository demonstrates a rally championship management system built with Java. It includes classes for drivers, cars, races, and a central manager to handle registrations and results.
 
+## Demo Video
+
+https://drive.google.com/file/d/1Yxc5sg7h0ajB80NXP2dW3c97EAP1sccR/view?usp=sharing
+
 ## Project Structure
 
 `com/main` package has the following `.java` files:
